@@ -37,7 +37,7 @@ export const Wedding = () => {
         imageSource={yachtClubLawn}
       />
       <Container maxWidth="md">
-        <Countdown toDate={new Date(2021, 5, 12, 16, 0, 0)} />
+        <Countdown toDate={new Date(2022, 6, 8, 16, 0, 0)} />
       </Container>
       <Container>
         <Box display="flex" flexWrap="wrap" justifyContent="space-around" mt={4}>
