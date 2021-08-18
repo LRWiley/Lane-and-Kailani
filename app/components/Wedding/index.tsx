@@ -7,19 +7,21 @@ import useMediaQuery from '@material-ui/core/useMediaQuery';
 import { GoogleMap } from '@react-google-maps/api';
 import * as React from 'react';
 
-import * as austin from '../../images/headshots/austin.webp';
-import * as becca from '../../images/headshots/becca.webp';
-import * as billbo from '../../images/headshots/billbo.webp';
-import * as brent from '../../images/headshots/brent.webp';
-import * as chris from '../../images/headshots/chris.webp';
-import * as gina from '../../images/headshots/gina.webp';
-import * as paige from '../../images/headshots/paige.webp';
-import * as rob from '../../images/headshots/rob.webp';
-import * as yachtClubLawn from '../../images/yacht_club_lawn.webp';
+import * as alexa from '../../images/headshots/alexa.webp';
+import * as angie from '../../images/headshots/angie.webp';
+import * as ducky from '../../images/headshots/ducky.webp';
+import * as fabio from '../../images/headshots/fabio.webp';
+import * as heisenberg from '../../images/headshots/heisenberg.webp';
+import * as hugs from '../../images/headshots/hugs.webp';
+import * as juila from '../../images/headshots/juila.webp';
+import * as kaylan from '../../images/headshots/kaylan.webp';
+import * as scoots from '../../images/headshots/scoots.webp';
+import * as sirena from '../../images/headshots/sirena.webp';
+import * as sree from '../../images/headshots/sree.webp';
+import * as KoolauVenue from '../../images/Kaneohe-Bay.jpg';
 import { Banner } from '../Banner';
 import { Countdown } from '../Countdown';
 import { ScriptTypography } from '../ScriptTypography';
-import { MenuOptionCard } from './MenuOptionCard';
 import { PartyMember } from './PartyMember';
 
 const useGetMapStyles = (): React.CSSProperties => {
@@ -32,9 +34,9 @@ export const Wedding = () => {
   return (
     <>
       <Banner
-        offset={0.3}
+        offset={0}
         style={isSmallScreen ? { height: '50vh' } : { minHeight: 650 }}
-        imageSource={yachtClubLawn}
+        imageSource={KoolauVenue}
       />
       <Container maxWidth="md">
         <Countdown toDate={new Date(2022, 6, 8, 16, 0, 0)} />
@@ -43,19 +45,19 @@ export const Wedding = () => {
         <Box display="flex" flexWrap="wrap" justifyContent="space-around" mt={4}>
           <Box mb={2} textAlign="center" px={1} width={isSmallScreen ? '100%' : '40%'}>
             <ScriptTypography align="center" variant="h2">
-              The Seattle Yacht Club
+              The Ko&apos;olau Ballrooms &amp; Conference Center
             </ScriptTypography>
             <ScriptTypography align="center" variant="h3" color="textSecondary" gutterBottom>
-              <em>6/12/21 @ 4pm</em>
+              <em>7/08/22 @ 4pm</em>
             </ScriptTypography>
             <Typography variant="body1" gutterBottom>
               Both our ceremony and reception will be held at the following address:
             </Typography>
             <Typography variant="body1" gutterBottom>
-              <Link href="https://goo.gl/maps/uMvTrj6rJoa62nz97" target="_blank">
-                1807 E. Hamlin St.
+              <Link href="https://tinyurl.com/2wm9cr92" target="_blank">
+                45-550 Kionaole Road
                 <br />
-                Seattle, WA 98112
+                Kane&apos;ohe, HI 96744
               </Link>
             </Typography>
           </Box>
@@ -73,62 +75,48 @@ export const Wedding = () => {
       </Container>
       <Container maxWidth="md">
         <Box mt={4}>
-          <ScriptTypography align="center" variant="h2">
-            Reception meal options
-          </ScriptTypography>
-          <Box
-            display="flex"
-            justifyContent="space-around"
-            flexWrap={isSmallScreen ? 'wrap' : 'nowrap'}
-          >
-            <MenuOptionCard
-              name="Crab Stuffed Salmon"
-              description="Dungeness Crab Stuffed Salmon with Citrus Beurre Blanc, Rice Pilaf and Seasonal Vegetables"
-            />
-            <MenuOptionCard
-              name="Pancetta Chicken"
-              description={
-                <>
-                  Oven Roasted with Pancetta, Fresh Sage and Roasted Garlic, Rice Pilaf and Seasonal
-                  Vegetables - <em>Gluten Free</em>
-                </>
-              }
-            />
-            <MenuOptionCard
-              name="Spinach Tortellini"
-              description="Spinach and Roasted Garlic with a Creamy Pesto Sauce and Seasonal Vegetables"
-            />
-          </Box>
-        </Box>
-      </Container>
-      <Container maxWidth="lg">
-        <Box mt={4}>
           <ScriptTypography variant="h2" align="center">
             Bridemaids
           </ScriptTypography>
           <Box display="flex" justifyContent="space-around" flexWrap="wrap">
             <Box width="16.5rem">
               <PartyMember
-                name="Paige Ubel"
-                description="Friend of the bride."
-                location="Fishers, Indiana"
-                imgSrc={paige}
+                name="Sirena Linton"
+                description="Tag Line"
+                location="Kane'ohe, Hawai'i"
+                imgSrc={sirena}
               />
             </Box>
             <Box width="16.5rem">
               <PartyMember
-                name="Rebecca Wiser"
-                description="Friend of the bride."
-                location="Greenwood, Indiana"
-                imgSrc={becca}
-              />
-            </Box>
-            <Box width="16.5rem">
-              <PartyMember
-                name="Gina Sapienza"
-                description="Friend of the bride."
+                name="Kaylan Conner"
+                description="And they were roommates. . ."
                 location="Chicago, Illinois"
-                imgSrc={gina}
+                imgSrc={kaylan}
+              />
+            </Box>
+            <Box width="16.5rem">
+              <PartyMember
+                name="Julia Betz"
+                description="Oh my god they were roommates"
+                location="Berkeley, California"
+                imgSrc={juila}
+              />
+            </Box>
+            <Box width="16.5rem">
+              <PartyMember
+                name="Sree Kutty"
+                description="Highschool Sweetheart"
+                location="Kane'ohe, Hawai'i"
+                imgSrc={sree}
+              />
+            </Box>
+            <Box width="16.5rem">
+              <PartyMember
+                name="Alexa Anderson"
+                description="Friendly neighborhood astrophysicist"
+                location="Kailua, Hawai'i"
+                imgSrc={alexa}
               />
             </Box>
           </Box>
@@ -140,34 +128,42 @@ export const Wedding = () => {
           <Box display="flex" justifyContent="space-around" flexWrap="wrap">
             <Box width="16.5rem">
               <PartyMember
-                name="Billy Shank"
-                description="Uses all of the beans."
+                name="Angie Hubert"
+                description="The Best of Men"
                 location="South Bend, Indiana"
-                imgSrc={billbo}
+                imgSrc={angie}
               />
             </Box>
             <Box width="16.5rem">
               <PartyMember
-                name="Austin Sims"
-                description="A fellow man of of the Trombone."
-                location="Chicago, Illinois"
-                imgSrc={austin}
+                name='Austen "Scoots" Bowen'
+                description="Tag Line"
+                location="Brazil, Indiana"
+                imgSrc={scoots}
               />
             </Box>
             <Box width="16.5rem">
               <PartyMember
-                name="Rob Mantock"
-                description="Some guy."
-                location="Indianapolis, Indiana"
-                imgSrc={rob}
+                name='TJ "Heisenberg" Morley'
+                description="Tag Line"
+                location="Ferndale, Michigan"
+                imgSrc={heisenberg}
               />
             </Box>
             <Box width="16.5rem">
               <PartyMember
-                name="Brent Mathis"
-                description="Beer santa."
-                location="St. Louis, Missouri"
-                imgSrc={brent}
+                name='Zach "Ducky" Greenberg'
+                description="His Uncle works at Nintendo"
+                location="Arlington Heights, Illinois"
+                imgSrc={ducky}
+              />
+            </Box>
+            <Box width="16.5rem">
+              <PartyMember
+                name='Robyn "Hugs" Bylsma'
+                description="Tag Line"
+                location="Cleveland, Ohio"
+                imgSrc={hugs}
               />
             </Box>
           </Box>
@@ -179,10 +175,10 @@ export const Wedding = () => {
           <Box display="flex">
             <Box mx="auto" width="16.5rem">
               <PartyMember
-                name="Chris Jacobus"
-                description="Might actually be an airplane."
+                name='Chris "Fabio" Jacobus'
+                description="Is actually an airplane."
                 location="Kent, Washington"
-                imgSrc={chris}
+                imgSrc={fabio}
               />
             </Box>
           </Box>

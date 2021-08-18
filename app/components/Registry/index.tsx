@@ -30,7 +30,7 @@ export const Registry = () => (
         <Box maxWidth="11rem" my="auto" py={4} px={1.5}>
           <Link
             target="_blank"
-            href="https://www.crateandbarrel.com/gift-registry/mycah-davis-and-elliott-mantock/r6196320"
+            href="https://www.crateandbarrel.com/gift-registry/lane-wiley-and-kailani-linton/r6351173"
           >
             <img style={{ width: '100%' }} src={crateAndBarrel} />
           </Link>
@@ -57,9 +57,9 @@ export const Registry = () => (
           Items can be shipped to our home address:
         </Typography>
         <Typography variant="body2" align="center">
-          12817 14th Ave SW
+          850 Baldwin Street Apt. 136
           <br />
-          Burien, WA 98146
+          Pittsburgh, PA 15234
         </Typography>
       </Box>
     </Container>

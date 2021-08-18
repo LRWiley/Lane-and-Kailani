@@ -9,13 +9,11 @@ import ListItemIcon from '@material-ui/core/ListItemIcon';
 import ListItemText from '@material-ui/core/ListItemText';
 import Toolbar from '@material-ui/core/Toolbar';
 import HomeIcon from '@material-ui/icons/Home';
-import HotelIcon from '@material-ui/icons/Hotel';
 import MenuIcon from '@material-ui/icons/Menu';
 import ShoppingCartIcon from '@material-ui/icons/ShoppingCart';
 import * as React from 'react';
 import { useState } from 'react';
 
-import { Rsvp } from '../Rsvp';
 import { ScriptTypography } from '../ScriptTypography';
 import { ActiveLink } from './ActiveLink';
 import { ListItemLink } from './ListItemLink';
@@ -45,12 +43,9 @@ export const Menu = () => {
                 </ActiveLink>
               </Box>
               <Box ml={6}>
-                <ActiveLink href="/accommodations">
-                  <ScriptTypography>Accommodations</ScriptTypography>
+                <ActiveLink href="/faq">
+                  <ScriptTypography>FAQ</ScriptTypography>
                 </ActiveLink>
-              </Box>
-              <Box ml="auto" my="auto" mr={4}>
-                <Rsvp />
               </Box>
             </Toolbar>
           </Container>
@@ -82,11 +77,11 @@ export const Menu = () => {
               </ListItemIcon>
               <ListItemText primary="Registry" />
             </ListItemLink>
-            <ListItemLink href="/accommodations" onClick={closeDrawer}>
+            <ListItemLink href="/faq" onClick={closeDrawer}>
               <ListItemIcon>
-                <HotelIcon />
+                <HomeIcon />
               </ListItemIcon>
-              <ListItemText primary="Accommodations" />
+              <ListItemText primary="FAQs" />
             </ListItemLink>
           </List>
         </Drawer>

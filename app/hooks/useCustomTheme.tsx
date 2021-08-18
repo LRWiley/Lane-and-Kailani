@@ -16,7 +16,7 @@ export const useCustomTheme = () =>
             contrastText: '#fff',
           },
           secondary: {
-            light: 'rgba(104, 177, 104, 1)',
+            light: 'rgba(150, 168, 161, 1)',
             main: 'rgba(31, 134, 31, 1)',
             dark: 'rgba(45, 92, 45, 1)',
             contrastText: '#fff',

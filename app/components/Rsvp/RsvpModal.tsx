@@ -80,7 +80,7 @@ export const RsvpModal = ({
       </Typography>
       <FormGroup>
         <FormControl component="fieldset">
-          <FormLabel>Will you attend on 6/12/2021?</FormLabel>
+          <FormLabel>Will you attend on 7/08/2022?</FormLabel>
           <RadioGroup
             name="yesNo"
             classes={useRadioGroupStyles()}
