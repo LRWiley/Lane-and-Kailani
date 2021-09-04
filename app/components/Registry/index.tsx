@@ -37,16 +37,6 @@ export const Registry = () => (
           </Link>
         </Box>
       </Box>
-      <Box mb={10}>
-        <Typography gutterBottom align="center">
-          Items can be shipped to our home address:
-        </Typography>
-        <Typography variant="body2" align="center">
-          850 Baldwin Street Apt. 136
-          <br />
-          Pittsburgh, PA 15234
-        </Typography>
-      </Box>
     </Container>
   </>
 );
