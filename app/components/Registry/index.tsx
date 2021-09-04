@@ -5,7 +5,6 @@ import Typography from '@material-ui/core/Typography';
 import * as React from 'react';
 
 import * as crateAndBarrel from '../../images/logos/crate_and_barrel.webp';
-import * as macys from '../../images/logos/macys.webp';
 import * as target from '../../images/logos/target.webp';
 
 export const Registry = () => (
@@ -21,11 +20,6 @@ export const Registry = () => (
     </Container>
     <Container maxWidth="md">
       <Box display="flex" justifyContent="space-around" flexWrap="wrap" my={6}>
-        <Box maxWidth="11rem" my="auto" py={4} px={1.5}>
-          <Link target="_blank" href="https://www.macys.com/wgl/registry/guest/7231659">
-            <img style={{ width: '100%' }} src={macys} />
-          </Link>
-        </Box>
         <Box maxWidth="11rem" my="auto" py={4} px={1.5}>
           <Link
             target="_blank"

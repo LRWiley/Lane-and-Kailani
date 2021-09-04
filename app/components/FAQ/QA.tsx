@@ -22,7 +22,7 @@ export const QA = (p: QAProps) => {
           py={2}
           display="flex"
           flexWrap="wrap"
-          justifyContent="space-around"
+          justifyContent={isSmallScreen ? 'center' : 'left'}
           width={isSmallScreen ? '100%' : '50%'}
         >
           <Typography color="secondary" variant="h4" align={isSmallScreen ? 'center' : 'left'}>
@@ -32,7 +32,7 @@ export const QA = (p: QAProps) => {
       </ListItem>
       <Collapse in={open} timeout="auto" unmountOnExit>
         <Box py={4}>
-          <Typography>{p.answer}</Typography>
+          <Typography gutterBottom>{p.answer}</Typography>
         </Box>
       </Collapse>
     </>

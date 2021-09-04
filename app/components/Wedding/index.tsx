@@ -165,7 +165,7 @@ export const Wedding = () => {
             <Box width="16.5rem">
               <PartyMember
                 name='Robyn "Hugs" Bylsma'
-                description="Tag Line"
+                description="Love me"
                 location="Cleveland, Ohio"
                 imgSrc={hugs}
               />

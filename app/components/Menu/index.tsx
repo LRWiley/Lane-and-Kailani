@@ -8,8 +8,10 @@ import List from '@material-ui/core/List';
 import ListItemIcon from '@material-ui/core/ListItemIcon';
 import ListItemText from '@material-ui/core/ListItemText';
 import Toolbar from '@material-ui/core/Toolbar';
+import CakeIcon from '@material-ui/icons/Cake';
 import HomeIcon from '@material-ui/icons/Home';
 import MenuIcon from '@material-ui/icons/Menu';
+import QuestionAnswer from '@material-ui/icons/QuestionAnswer';
 import ShoppingCartIcon from '@material-ui/icons/ShoppingCart';
 import * as React from 'react';
 import { useState } from 'react';
@@ -67,7 +69,7 @@ export const Menu = () => {
             </ListItemLink>
             <ListItemLink href="/wedding" onClick={closeDrawer}>
               <ListItemIcon>
-                <HomeIcon />
+                <CakeIcon />
               </ListItemIcon>
               <ListItemText primary="Wedding" />
             </ListItemLink>
@@ -79,7 +81,7 @@ export const Menu = () => {
             </ListItemLink>
             <ListItemLink href="/faq" onClick={closeDrawer}>
               <ListItemIcon>
-                <HomeIcon />
+                <QuestionAnswer />
               </ListItemIcon>
               <ListItemText primary="FAQs" />
             </ListItemLink>

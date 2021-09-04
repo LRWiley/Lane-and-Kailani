@@ -8,7 +8,7 @@ type AboutSectionProps = {
   /**
    * Section title displayed above body text.
    */
-  title?: string | JSX.Element;
+  title: string | JSX.Element;
   /**
    * Section body displayed to the left or right.
    */

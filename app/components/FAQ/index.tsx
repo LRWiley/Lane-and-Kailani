@@ -11,8 +11,6 @@ import useMediaQuery from '@material-ui/core/useMediaQuery';
 import FiberManualRecordIcon from '@material-ui/icons/FiberManualRecord';
 import * as React from 'react';
 
-import * as KoolauVenue from '../../images/Kaneohe-Bay.jpg';
-import { Banner } from '../Banner';
 import { ScriptTypography } from '../ScriptTypography';
 import { QA } from './QA';
 
@@ -21,11 +19,6 @@ export const FAQ = () => {
 
   return (
     <>
-      <Banner
-        offset={0}
-        style={isSmallScreen ? { height: '50vh' } : { minHeight: 650 }}
-        imageSource={KoolauVenue}
-      />
       <Container>
         <Box
           pt={4}
@@ -37,7 +30,7 @@ export const FAQ = () => {
           <ScriptTypography align="center" variant="h2">
             Frequently Asked Questions
           </ScriptTypography>
-          <Typography>
+          <Typography align="center">
             Click on the question to see the answer. If you have a question that isn&apos;t listed
             here, email us at KailaniandLane@gmail.com.
           </Typography>
@@ -76,6 +69,9 @@ export const FAQ = () => {
               answer={
                 <>
                   <ListItem>
+                    <ListItemIcon>
+                      <FiberManualRecordIcon style={{ fontSize: 10 }} />
+                    </ListItemIcon>
                     <ListItemText
                       primary="Brush up on your Hawaiian history. Hawai'i has a rich culture and a long and
               complicated history with colonialism and its statehood. The more you know, the more you
@@ -87,9 +83,6 @@ export const FAQ = () => {
                     <ListItemIcon>
                       <FiberManualRecordIcon style={{ fontSize: 10 }} />
                     </ListItemIcon>
-                    <ListItemText primary="Leave places cleaner than you found them. This includes biodegradable food items." />
-                  </ListItem>
-                  <ListItem>
                     <ListItemText>
                       <Link href="http://hbs.bishopmuseum.org/endangered/" target="_blank">
                         <ListItemText primary="Leave wildlife alone. Especially turtles and seals."></ListItemText>
@@ -97,33 +90,69 @@ export const FAQ = () => {
                     </ListItemText>
                   </ListItem>
                   <ListItem>
+                    <ListItemIcon>
+                      <FiberManualRecordIcon style={{ fontSize: 10 }} />
+                    </ListItemIcon>
+                    <ListItemText primary="Leave places cleaner than you found them. This includes biodegradable food items." />
+                  </ListItem>
+                  <ListItem>
+                    <ListItemIcon>
+                      <FiberManualRecordIcon style={{ fontSize: 10 }} />
+                    </ListItemIcon>
                     <ListItemText primary="Do not geotag, Geotagging has caused many local hotspots to become overcrowded."></ListItemText>
                   </ListItem>
                   <ListItem>
+                    <ListItemIcon>
+                      <FiberManualRecordIcon style={{ fontSize: 10 }} />
+                    </ListItemIcon>
                     <ListItemText primary="Use reef-safe sunscreen. (And PLEASE wear sunscreen!)"></ListItemText>
                   </ListItem>
                   <ListItem>
+                    <ListItemIcon>
+                      <FiberManualRecordIcon style={{ fontSize: 10 }} />
+                    </ListItemIcon>
                     <ListItemText primary="Shop local! As you get out of Waikiki, there will be many food and souvenir options that will be runby locals instead of chains."></ListItemText>
                   </ListItem>
                   <ListItem>
+                    <ListItemIcon>
+                      <FiberManualRecordIcon style={{ fontSize: 10 }} />
+                    </ListItemIcon>
                     <ListItemText primary="If you are in reefy areas, do not stand/step on the reef/coral. This will harm the microscopic lifeforms that keep the reef alive."></ListItemText>
                   </ListItem>
                   <ListItem>
+                    <ListItemIcon>
+                      <FiberManualRecordIcon style={{ fontSize: 10 }} />
+                    </ListItemIcon>
                     <ListItemText primary="Never turn your back on the ocean."></ListItemText>
                   </ListItem>
                   <ListItem>
+                    <ListItemIcon>
+                      <FiberManualRecordIcon style={{ fontSize: 10 }} />
+                    </ListItemIcon>
                     <ListItemText primary="Recognize that not everyone will be happy about tourism. Remember that local hospitality is not owned to you, no matter how much your're spending to be here."></ListItemText>
                   </ListItem>
                   <ListItem>
+                    <ListItemIcon>
+                      <FiberManualRecordIcon style={{ fontSize: 10 }} />
+                    </ListItemIcon>
                     <ListItemText primary="Stay on marked trails when hiking. At best, trailblazing harms local wildlife and casuses erosion. At worst, you end up on the news."></ListItemText>
                   </ListItem>
                   <ListItem>
+                    <ListItemIcon>
+                      <FiberManualRecordIcon style={{ fontSize: 10 }} />
+                    </ListItemIcon>
                     <ListItemText primary="Obey all posted signs and warnings concerning currents, Man-O-Wars, trails, sacred sites, etc."></ListItemText>
                   </ListItem>
                   <ListItem>
+                    <ListItemIcon>
+                      <FiberManualRecordIcon style={{ fontSize: 10 }} />
+                    </ListItemIcon>
                     <ListItemText primary="Hawai'i has suffered a lot lately from economic hardships due to Covid and overcrowding and resource strains from a mass influx of tourism. Please be mindful of how your presence and actions affect the local population and always show respect to the aldn and the people."></ListItemText>
                   </ListItem>
                   <ListItem>
+                    <ListItemIcon>
+                      <FiberManualRecordIcon style={{ fontSize: 10 }} />
+                    </ListItemIcon>
                     <ListItemText primary="Consider donating to local charities. In fact, we would prefer you do this than send us a gift if it's within your means."></ListItemText>
                   </ListItem>
                 </>
@@ -209,10 +238,11 @@ export const FAQ = () => {
             />
             <QA
               question="Open bar!?"
-              answer="No. The Lintons are coming and we can't afford that. Cash bar only."
+              answer="Have you met our friends and family? We'd go broke! Cash bar only. Please drink responsibly."
             />
           </List>
         </Box>
+        <Box></Box>
       </Container>
     </>
   );
