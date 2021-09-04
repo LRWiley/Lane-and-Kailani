@@ -75,7 +75,7 @@ export const FAQ = () => {
                     <ListItemText
                       primary="Brush up on your Hawaiian history. Hawai'i has a rich culture and a long and
               complicated history with colonialism and its statehood. The more you know, the more you
-              can appreciate the land and its people. Bishop Museum and 'lolani Palace are great
+              can appreciate the land and its people. Bishop Museum and 'Iolani Palace are great
               places to work into your visit to learn more."
                     ></ListItemText>
                   </ListItem>
@@ -84,9 +84,7 @@ export const FAQ = () => {
                       <FiberManualRecordIcon style={{ fontSize: 10 }} />
                     </ListItemIcon>
                     <ListItemText>
-                      <Link href="http://hbs.bishopmuseum.org/endangered/" target="_blank">
-                        <ListItemText primary="Leave wildlife alone. Especially turtles and seals."></ListItemText>
-                      </Link>
+                      <ListItemText primary="Leave wildlife alone. Especially turtles and seals."></ListItemText>
                     </ListItemText>
                   </ListItem>
                   <ListItem>
@@ -99,7 +97,7 @@ export const FAQ = () => {
                     <ListItemIcon>
                       <FiberManualRecordIcon style={{ fontSize: 10 }} />
                     </ListItemIcon>
-                    <ListItemText primary="Do not geotag, Geotagging has caused many local hotspots to become overcrowded."></ListItemText>
+                    <ListItemText primary="Do not geotag. Geotagging has caused many local hotspots to become overcrowded."></ListItemText>
                   </ListItem>
                   <ListItem>
                     <ListItemIcon>
@@ -129,7 +127,7 @@ export const FAQ = () => {
                     <ListItemIcon>
                       <FiberManualRecordIcon style={{ fontSize: 10 }} />
                     </ListItemIcon>
-                    <ListItemText primary="Recognize that not everyone will be happy about tourism. Remember that local hospitality is not owned to you, no matter how much your're spending to be here."></ListItemText>
+                    <ListItemText primary="Recognize that not everyone will be happy about tourism. Remember that local hospitality is not owed to you, no matter how much your're spending to be here."></ListItemText>
                   </ListItem>
                   <ListItem>
                     <ListItemIcon>
@@ -141,26 +139,26 @@ export const FAQ = () => {
                     <ListItemIcon>
                       <FiberManualRecordIcon style={{ fontSize: 10 }} />
                     </ListItemIcon>
-                    <ListItemText primary="Obey all posted signs and warnings concerning currents, Man-O-Wars, trails, sacred sites, etc."></ListItemText>
+                    <ListItemText primary="Obey all posted signs and warnings concerning currents, man-o-wars, trails, sacred sites, etc."></ListItemText>
                   </ListItem>
                   <ListItem>
                     <ListItemIcon>
                       <FiberManualRecordIcon style={{ fontSize: 10 }} />
                     </ListItemIcon>
-                    <ListItemText primary="Hawai'i has suffered a lot lately from economic hardships due to Covid and overcrowding and resource strains from a mass influx of tourism. Please be mindful of how your presence and actions affect the local population and always show respect to the aldn and the people."></ListItemText>
+                    <ListItemText primary="Hawai'i has suffered a lot lately from economic hardships due to Covid, overcrowding, and resource strains from a mass influx of tourism. Please be mindful of how your presence and actions affect the local population and always show respect to the land and the people."></ListItemText>
                   </ListItem>
                   <ListItem>
                     <ListItemIcon>
                       <FiberManualRecordIcon style={{ fontSize: 10 }} />
                     </ListItemIcon>
-                    <ListItemText primary="Consider donating to local charities. In fact, we would prefer you do this than send us a gift if it's within your means."></ListItemText>
+                    <ListItemText primary="Consider donating to local charities."></ListItemText>
                   </ListItem>
                 </>
               }
             />
             <QA
               question="What island is the wedding on?"
-              answer="O'ahu. Please book your flights to HNL"
+              answer="O'ahu. Please book your flights to HNL."
             />
             <QA
               question="Where should I stay?"
@@ -227,14 +225,14 @@ export const FAQ = () => {
               answer="There is ample free parking in the lot in front of the ballrooms."
             />
             <QA
-              question="When should I arrive?"
+              question="When should I arrive to the ceremony?"
               answer="Guests may start arriving about 30 minutes before the ceremony."
             />
             <QA
               question="Is the ceremony inside or outside?"
               answer="The ceremony is outside on the 10th tee (signs will be posted to guide you there). There is only seating available for 50 people, so please let immediate family and
                       elderly/disabled guests have priority. Remaining guests may stand to the sides or on the grassway on top of the snack shop (this will make more sense when you see it,
-                      don't worry)."
+                      don't worry). Reception is indoors."
             />
             <QA
               question="Open bar!?"
