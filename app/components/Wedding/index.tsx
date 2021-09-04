@@ -63,9 +63,13 @@ export const Wedding = () => {
           </Box>
           <Box px={1} width={isSmallScreen ? '100%' : '40%'}>
             <GoogleMap
+              options={{
+                mapTypeId: google.maps.MapTypeId.HYBRID,
+                streetViewControl: false,
+              }}
               center={{
-                lat: 47.6453105466125,
-                lng: -122.30854550197377,
+                lat: 21.374320786959828,
+                lng: -157.79390660789844,
               }}
               zoom={15}
               mapContainerStyle={useGetMapStyles()}
@@ -82,7 +86,7 @@ export const Wedding = () => {
             <Box width="16.5rem">
               <PartyMember
                 name="Sirena Linton"
-                description="Tag Line"
+                description="I'm doing my best"
                 location="Kane'ohe, Hawai'i"
                 imgSrc={sirena}
               />
@@ -98,7 +102,7 @@ export const Wedding = () => {
             <Box width="16.5rem">
               <PartyMember
                 name="Julia Betz"
-                description="Oh my god they were roommates"
+                description="Oh my god they were roommates!"
                 location="Berkeley, California"
                 imgSrc={juila}
               />
@@ -137,7 +141,7 @@ export const Wedding = () => {
             <Box width="16.5rem">
               <PartyMember
                 name='Austen "Scoots" Bowen'
-                description="Tag Line"
+                description="The purrrfect roommate"
                 location="Brazil, Indiana"
                 imgSrc={scoots}
               />
@@ -145,7 +149,7 @@ export const Wedding = () => {
             <Box width="16.5rem">
               <PartyMember
                 name='TJ "Heisenberg" Morley'
-                description="Tag Line"
+                description="The secert ingredient is crime"
                 location="Ferndale, Michigan"
                 imgSrc={heisenberg}
               />

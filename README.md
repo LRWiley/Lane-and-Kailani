@@ -1,9 +1,9 @@
-# Mycah and Elliott's wedding site!
+# Kailani and Lane's wedding site!
 
 - https://elliottandmycah.com
 - https://mycahandelliott.com
 
-Just a basic site with mostly static content for us to play around with various tech. :)
+A basic website with static content for our upcoming wedding! Huge thanks to ElGatoMantocko for the orignal code and assistance in getting this up and running.
 
 ## I'm not a designer
 
@@ -11,7 +11,7 @@ Full disclosure. I'm not a website designer and kind of suck at it, but I do kno
 
 ## Dev
 
-You can start the app with `yarn dev` and there are no tests yet. :( _sad womp_
+You can start the app with `yarn dev` and there are no tests yet.
 
 Required tools:
 

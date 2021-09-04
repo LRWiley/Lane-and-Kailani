@@ -4,9 +4,9 @@ import { Theme } from '@material-ui/core/styles';
 import useMediaQuery from '@material-ui/core/useMediaQuery';
 import * as React from 'react';
 
-import * as ellie from '../../images/ellie_and_rainier.webp';
-import * as kailaniAndLane from '../../images/elliottandmycah.webp';
 import * as firstDance from '../../images/first_dance.webp';
+import * as kailaniAndLane from '../../images/kailaniandlane.webp';
+import * as kittens from '../../images/kittens.webp';
 import * as engagement from '../../images/purdue_engagement.webp';
 import { Banner } from '../Banner';
 import { ScriptTypography } from '../ScriptTypography';
@@ -40,32 +40,29 @@ export const About = () => {
         >
           <Section
             title="How we met"
-            body="We met through the marching band program while attending Purdue University. We remained
-              friends until our final year when we had our first date at a farm to table
-              restaurant in downtown Lafayette."
+            body="We met through the marching band program while attending Purdue University. Our first date was getting
+            ice cream at Silver Dipper. Lane offered to pay, but when Kailani politely refused the first time, he didn't insist
+            and she paid for her own. Although she was happy that Lane wasn't driven by gender roles, Lane now pays for all ice
+            cream."
             imageSource={firstDance}
-            imageAlt="Kailani and Lane at the Purdue's Evening of Romance"
+            imageAlt="Kailani and Lane at Purdue's Evening of Romance, February 2017"
           />
           <Section
-            title="Pittsburgh"
-            body="We both, coincidentally, had already planned to move to Chicago, IL after graduation In
-              August 2018, we moved to Seattle, WA. We lived in the South Lake Union area until we
-              bought our house in Burien in September 2019. In May 2019, we added our chocolate lab,
-              Ellie, to our family."
-            imageSource={ellie}
+            title="How it's going"
+            body="We dated for the rest our time at Purdue, which included several visits to Hawai'i for Christmas, a reunion in Spain while Kailani studied abroad,
+            and Lane's graduation in 2019. Kailani accepted a job in Pittsburgh her senior year, and one apocalypse later, we've settled into our new city and 
+            added two lovable but mischievous kittens, Darwin and Mochi."
+            imageSource={kittens}
             imageAlt="Ellie strikes a pose in front of 14000ft Mt. Rainier"
           />
           <Section
             title="Engagement"
-            body="In June 2021, we took an Alaskan cruise. While ported in Juneau, AK, we had planned
-              to hike to a view of Mendenhall glacier followed by a humpback whale watching tour.
-              After nearly missing the bus ride to the glacier, losing our group as soon as we
-              arrived, and with the rain pouring down, we hiked a mile and half to a gravel beach
-              framed by Mendenhall Glacier, a turquoise lake, and a glacier-fed waterfall. Elliott
-              asked our tour guide to take a photo of us and after a few snapshots, got down on one
-              knee to pop the question."
+            body="In June 2021, we took a weekend trip out to Indiana for a small family reunion. Due to the pandemic, 
+            Kailani had not taken senior photos on Purdue's campus, so we planned to stop by since we were in the area. We met up with 
+            some friends to help take our photos. Once we got to the Engingeering Fountain, while Kailani was turned around, Lane got 
+            down on one knee and the rest is history."
             imageSource={engagement}
-            imageAlt="Elliott pops the question in front of the Mendenhall glacier"
+            imageAlt="Lane kissing Kailani at the Engineering foundation."
           />
         </Box>
       </Container>

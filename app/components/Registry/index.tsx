@@ -4,10 +4,9 @@ import Link from '@material-ui/core/Link';
 import Typography from '@material-ui/core/Typography';
 import * as React from 'react';
 
-import * as amazon from '../../images/logos/amazon.webp';
 import * as crateAndBarrel from '../../images/logos/crate_and_barrel.webp';
 import * as macys from '../../images/logos/macys.webp';
-import * as williamsSanoma from '../../images/logos/williams_sonoma.webp';
+import * as target from '../../images/logos/target.webp';
 
 export const Registry = () => (
   <>
@@ -38,17 +37,9 @@ export const Registry = () => (
         <Box maxWidth="11rem" my="auto" py={4} px={1.5}>
           <Link
             target="_blank"
-            href="https://www.williams-sonoma.com/registry/gvbzch695m/registry-list.html?removed=true"
+            href="https://www.target.com/gift-registry/gift-giver?registryId=afc50900-05e8-11ec-a5f7-adaf1ca5640c&amp;type=WEDDING&amp;registrant=true"
           >
-            <img style={{ width: '100%' }} src={williamsSanoma} />
-          </Link>
-        </Box>
-        <Box maxWidth="11rem" my="auto" py={4} px={1.5}>
-          <Link
-            target="_blank"
-            href="https://www.amazon.com/wedding/mycah-davis-elliott-mantock--june-2021/registry/2HVJLUOV8LBF2"
-          >
-            <img style={{ width: '100%' }} src={amazon} />
+            <img style={{ width: '100%' }} src={target} />
           </Link>
         </Box>
       </Box>

@@ -26,7 +26,7 @@ const usePaperStyles = makeStyles({
 export const App = () => (
   <ParallaxProvider>
     <ThemeProvider theme={useCustomTheme()}>
-      <LoadScript googleMapsApiKey="AIzaSyApT_xNp9ePgFYEfdlpw_JJXZG70U1MzXM">
+      <LoadScript googleMapsApiKey="AIzaSyBurAw_4Edb76jjwIfevfj4xi2ZQgCszB4">
         <Paper classes={usePaperStyles()} elevation={0} square>
           <Router>
             <Menu />
