@@ -1,7 +1,7 @@
 # Kailani and Lane's wedding site!
 
-- https://elliottandmycah.com
-- https://mycahandelliott.com
+- https://kailanianlane.us
+- https://laneandkailani.us
 
 A basic website with static content for our upcoming wedding! Huge thanks to ElGatoMantocko for the orignal code and assistance in getting this up and running.
 
