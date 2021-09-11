@@ -49,17 +49,17 @@ export const FAQ = () => {
                     link
                   </Link>
                   ) for the latest travel guidelines regardless of status. As for the wedding
-                  itself, Hawaii&apos;s hosptials are currently at capacity capacity with Coivd
-                  patients, spiking to nearly three times the number of cases from last year which
-                  is largely attributed to a mass influx of tourists. It is too early to early to
-                  know what things will look like next summer, however, we reserve the right to
-                  require our guests to be vcaccinated if cases remain high or spike again - even if
-                  local local government does not make that call. If this becomes a requirement, we
-                  will notify all all RSVP&apos;d guests with enough time to get fully vaccinated
-                  before traveling. All will be expected to follow local and federal guidelines for
-                  covid safety during our event and throughout their travels. We highly encourage
-                  you to consider not only the health risks, but also the financial risk if you
-                  choose to book your travels and do not intend to be vaccinated by next July.
+                  itself, Hawaii&apos;s hosptials are currently at capacity with Coivd patients,
+                  spiking to nearly three times the number of cases from last year which is largely
+                  attributed to a mass influx of tourists. It is too early to early to know what
+                  things will look like next summer, however, we reserve the right to require our
+                  guests to be vcaccinated if cases remain high or spike again - even if local local
+                  government does not make that call. If this becomes a requirement, we will notify
+                  all all RSVP&apos;d guests with enough time to get fully vaccinated before
+                  traveling. All will be expected to follow local and federal guidelines for covid
+                  safety during our event and throughout their travels. We highly encourage you to
+                  consider not only the health risks, but also the financial risk if you choose to
+                  book your travels and do not intend to be vaccinated by next July.
                 </>
               }
               startOpen
@@ -188,7 +188,7 @@ export const FAQ = () => {
             />
             <QA
               question="Do I need a passport?"
-              answer="No, this is still the United States *eyeroll*. However, if you haven't traveled in a while, make sure your ID has been updated to include the gold star."
+              answer="No, this is still the United States *eyeroll*."
             />
             <QA
               question="How long should I stay in Hawai'i?"

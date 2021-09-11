@@ -43,7 +43,11 @@ export async function* submitGuests(
 
     yield { type: RsvpActionTypes.ClearGuests };
   } catch (payload) {
-    yield { type: RsvpActionTypes.Error, payload };
+    if (payload instanceof Error) {
+      yield { type: RsvpActionTypes.Error, payload };
+    } else if (typeof payload === 'string') {
+      yield { type: RsvpActionTypes.Error, payload: new Error(payload) };
+    }
   }
   yield { type: RsvpActionTypes.Loading, payload: false };
   return;
