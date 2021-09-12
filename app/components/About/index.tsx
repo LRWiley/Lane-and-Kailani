@@ -1,6 +1,7 @@
 import Box from '@material-ui/core/Box';
 import Container from '@material-ui/core/Container';
 import { Theme } from '@material-ui/core/styles';
+import Typography from '@material-ui/core/Typography';
 import useMediaQuery from '@material-ui/core/useMediaQuery';
 import * as React from 'react';
 
@@ -64,6 +65,14 @@ export const About = () => {
             imageSource={engagement}
             imageAlt="Lane kissing Kailani at the Engineering foundation."
           />
+        </Box>
+      </Container>
+      <Container maxWidth="md">
+        <Box mt={4} mb={6}>
+          <Typography variant="subtitle2" align="center">
+            Special thanks to Elliot Mantock for all his help and support in designing and hosting
+            this website.
+          </Typography>
         </Box>
       </Container>
     </>

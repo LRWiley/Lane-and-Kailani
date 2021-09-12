@@ -38,7 +38,7 @@ export const FAQ = () => {
       </Container>
       {/*General Questions*/}
       <Container>
-        <Box>
+        <Box mt={4} mb={6}>
           <List>
             <QA
               question="Do I need to be vaccinated?"
@@ -163,7 +163,7 @@ export const FAQ = () => {
             <QA
               question="Where should I stay?"
               answer="Most hotels are located in Waikiki, which is where you will also find activities like surf lessons, outrigger rides, gift shops, and nightlife. Waikiki is also well
-            connected to public bus routes and tourist shuttles. There are other lodging options across the island as well and prices will vary by location and proximity to the beach. Airbnb is available but be aware that they may be operating illegally."
+            connected to public bus routes and tourist shuttles. There are other lodging options across the island as well and prices will vary by location and proximity to the beach. Airbnb is available (we recommend looking in zip codes 96734 and 96744 to start) but be aware that they may be operating illegally."
             />
             <QA
               question="Should I rent a car?"
@@ -241,6 +241,14 @@ export const FAQ = () => {
           </List>
         </Box>
         <Box></Box>
+      </Container>
+      <Container maxWidth="md">
+        <Box mt={4} mb={6}>
+          <Typography variant="subtitle2" align="center">
+            Special thanks to Elliot Mantock for all his help and support in designing and hosting
+            this website.
+          </Typography>
+        </Box>
       </Container>
     </>
   );
