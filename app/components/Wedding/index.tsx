@@ -15,6 +15,9 @@ import * as heisenberg from '../../images/headshots/heisenberg.webp';
 import * as hugs from '../../images/headshots/hugs.webp';
 import * as juila from '../../images/headshots/juila.webp';
 import * as kaylan from '../../images/headshots/kaylan.webp';
+import * as lauryn from '../../images/headshots/lauryn.webp';
+import * as logan from '../../images/headshots/logan.webp';
+import * as nala from '../../images/headshots/nala.webp';
 import * as scoots from '../../images/headshots/scoots.webp';
 import * as sirena from '../../images/headshots/sirena.webp';
 import * as sree from '../../images/headshots/sree.webp';
@@ -110,7 +113,7 @@ export const Wedding = () => {
             <Box width="16.5rem">
               <PartyMember
                 name="Sree Kutty"
-                description="Highschool Sweetheart"
+                description="Highschool sweetheart"
                 location="Kane'ohe, Hawai'i"
                 imgSrc={sree}
               />
@@ -157,7 +160,7 @@ export const Wedding = () => {
             <Box width="16.5rem">
               <PartyMember
                 name='Zach "Ducky" Greenberg'
-                description="His Uncle works at Nintendo"
+                description="His uncle works at Nintendo"
                 location="Arlington Heights, Illinois"
                 imgSrc={ducky}
               />
@@ -168,6 +171,37 @@ export const Wedding = () => {
                 description="Love me"
                 location="Cleveland, Ohio"
                 imgSrc={hugs}
+              />
+            </Box>
+          </Box>
+        </Box>
+        <Box mt={4} mb={6}>
+          <ScriptTypography variant="h2" align="center">
+            Flower Squad
+          </ScriptTypography>
+          <Box display="flex">
+            <Box mx="auto" width="16.5rem">
+              <PartyMember
+                name="Logan Wiley"
+                description="Assistant to the flower girl"
+                location="Geneva, Illinois"
+                imgSrc={logan}
+              />
+            </Box>
+            <Box mx="auto" width="16.5rem">
+              <PartyMember
+                name="Nala Dickson"
+                description="World's cutest flower girl"
+                location="Geneva, Illinois"
+                imgSrc={nala}
+              />
+            </Box>
+            <Box mx="auto" width="16.5rem">
+              <PartyMember
+                name="Lauryn Wiley"
+                description="Assistant to the assistant to the flower girl"
+                location="Geneva, Illinois"
+                imgSrc={lauryn}
               />
             </Box>
           </Box>
