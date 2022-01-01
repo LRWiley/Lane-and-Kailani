@@ -230,7 +230,7 @@ export const guestList: Guest[] = [
   { userID: uuid(), firstName: 'Dean', lastName: 'Gaddy', partyNum: 99, plusOne: false },
   { userID: uuid(), firstName: 'Sarah', lastName: 'Gaddy', partyNum: 99, plusOne: false },
   { userID: uuid(), firstName: 'EJ', lastName: 'Wennerberg', partyNum: 100, plusOne: false },
-  { userID: uuid(), firstName: 'Elliot', lastName: 'Mantock', partyNum: 101, plusOne: false },
+  { userID: uuid(), firstName: 'Elliott', lastName: 'Mantock', partyNum: 101, plusOne: false },
   { userID: uuid(), firstName: 'Mycah', lastName: 'Mantock', partyNum: 101, plusOne: false },
   { userID: uuid(), firstName: 'Emily', lastName: 'Dawley', partyNum: 102, plusOne: false },
   { userID: uuid(), firstName: 'Dakota', lastName: 'Hamilton', partyNum: 102, plusOne: false },

@@ -225,7 +225,7 @@ export const Wedding = () => {
       <Container maxWidth="md">
         <Box mt={4} mb={6}>
           <Typography variant="subtitle2" align="center">
-            Special thanks to Elliot Mantock for all his help and support in designing and hosting
+            Special thanks to Elliott Mantock for all his help and support in designing and hosting
             this website.
           </Typography>
         </Box>
