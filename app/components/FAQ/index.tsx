@@ -27,13 +27,17 @@ export const FAQ = () => {
           flexWrap="wrap"
           justifyContent="space-around"
         >
-          <ScriptTypography align="center" variant="h2">
-            Frequently Asked Questions
-          </ScriptTypography>
-          <Typography align="center">
-            Click on the question to see the answer. If you have a question that isn&apos;t listed
-            here, email us at KailaniandLane@gmail.com.
-          </Typography>
+          <Box>
+            <ScriptTypography align="center" variant="h2">
+              Frequently Asked Questions
+            </ScriptTypography>
+          </Box>
+          <Box p={4}>
+            <Typography align="center">
+              Click on the question to see the answer. If you have a question that isn&apos;t listed
+              here, email us at KailaniandLane@gmail.com.
+            </Typography>
+          </Box>
         </Box>
       </Container>
       {/*General Questions*/}
@@ -44,22 +48,19 @@ export const FAQ = () => {
               question="Do I need to be vaccinated?"
               answer={
                 <>
-                  Please refer to Hawai&apos;i&apos;s DOH website (
+                  The short answer is yes, please be vaccinated before traveling or gathering with
+                  us. Refer to Hawai&apos;i&apos;s DOH website (
                   <Link href="https://hawaiicovid19.com/travel/travel-overview/" target="_blank">
                     link
                   </Link>
-                  ) for the latest travel guidelines regardless of status. As for the wedding
-                  itself, Hawaii&apos;s hosptials are currently at capacity with Coivd patients,
-                  spiking to nearly three times the number of cases from last year which is largely
-                  attributed to a mass influx of tourists. It is too early to know what things will
-                  look like next summer, however, we reserve the right to require our guests to be
-                  vcaccinated if cases remain high or spike again - even if local local government
-                  does not make that call. If this becomes a requirement, we will notify all all
-                  RSVP&apos;d guests with enough time to get fully vaccinated before traveling. All
-                  will be expected to follow local and federal guidelines for covid safety during
-                  our event and throughout their travels. We highly encourage you to consider not
-                  only the health risks, but also the financial risk if you choose to book your
-                  travels and do not intend to be vaccinated by next July.
+                  ) for the latest travel guidelines regardless of vaccination status. Although we
+                  will not personally verify your status, Hawai&apos;i has had the strictest COVID
+                  policies in the country throughout the pandemic, and will likely require proof of
+                  vaccination to enter businesses, restaurants, and possibly the venue itself. The
+                  pandemic is ever evoloving but it now seems unlikely to be over by July. We want
+                  to move forward with our wedding plans as responsibly as possible and out of
+                  respect for locals and other wedding guests, we ask that you celebrate with us
+                  having been vaccinated.
                 </>
               }
               startOpen
@@ -109,7 +110,7 @@ export const FAQ = () => {
                     <ListItemIcon>
                       <FiberManualRecordIcon style={{ fontSize: 10 }} />
                     </ListItemIcon>
-                    <ListItemText primary="Shop local! As you get out of Waikiki, there will be many food and souvenir options that will be runby locals instead of chains."></ListItemText>
+                    <ListItemText primary="Shop local! As you get out of Waikiki, there will be many food and souvenir options that will be run by locals instead of chains."></ListItemText>
                   </ListItem>
                   <ListItem>
                     <ListItemIcon>
@@ -127,7 +128,7 @@ export const FAQ = () => {
                     <ListItemIcon>
                       <FiberManualRecordIcon style={{ fontSize: 10 }} />
                     </ListItemIcon>
-                    <ListItemText primary="Recognize that not everyone will be happy about tourism. Remember that local hospitality is not owed to you, no matter how much your're spending to be here."></ListItemText>
+                    <ListItemText primary="Recognize that not everyone will be happy about tourism. Remember that local hospitality is not owed to you, no matter how much money you're spending to be here."></ListItemText>
                   </ListItem>
                   <ListItem>
                     <ListItemIcon>
@@ -168,7 +169,7 @@ export const FAQ = () => {
             <QA
               question="Should I rent a car?"
               answer="Yes. There will not be direct transporation to our venue and your own car will be extremely useful for getting to hikes, beaches, and other locations away from where
-            you stay. It is well worth your while to get out of Waikiki and explore other areas. Unless you are using the car for mulitple people, a smaller car will be easier to maneuver into Hawa'i's
+            you stay. It is well worth your while to get out of your hotel and explore other areas. Unless you are using the car for mulitple people, a smaller car will be easier to maneuver into Hawa'i's
             tight parking spaces. Uber/Taxis are available but are much less cost efficient in most cases."
             />
             <QA
@@ -193,12 +194,24 @@ export const FAQ = () => {
             <QA
               question="How long should I stay in Hawai'i?"
               answer="Assuming you don't have work or budget constraints, 7-10 days is a good amount of time to fit in relaxation, sight-seeing, and adventure. There will be opportunities to
-                      get together with the bride, groom, and their families the week of the wedding as well as possibly a farewell brunch the day after (details TBD)."
+                      get together with the bride, groom, and their families the week of the wedding as well as a farewell brunch the day after (see Events tab)."
             />
             <QA
               question="How do I RSVP?"
-              answer="We are still finalizing RSVP details (website, plus ones, etc). When you receive your official invitation, an RSVP option will be 
-              available on this website."
+              answer="Desktop: Find the RSVP button at the top right of this site. Mobile: Find the RSVP button at the bottom left of your screen. If you have any issues with your
+                      RSVP, please email us at KailaniandLane@gmail.com."
+            />
+            <QA
+              question="Do I get a plus one?"
+              answer="Unfortunately, we do not have the space or resources to offer a plus one to everyone while still having room for all the friends and family
+            we want to see. If we have reserved an extra seat for you, it will show up when you enter your name
+            to RSVP. If you would like to bring someone with you for the vacation portion of your stay, that is entirely up to you."
+            />
+            <QA
+              question="What is the Facebook group mentioned in the RSVP?"
+              answer="Some guests have expressed an interest in connecting with others for planning their trip,
+            sharing costs for rental cars, hotels, etc. If this is something you're interested in, answer Yes to Question 3 on the RSVP and we will add you to a Facebook group
+            with other guests who have also answered Yes. This group will be unofficial and no wedding-related announcements from us will be made there."
             />
             <QA
               question="What's the dress code?"
@@ -208,12 +221,7 @@ export const FAQ = () => {
               question="What's for dinner?"
               answer="Dinner will be served buffet style with multiple entree and side options. There will be a vegetarian option. The exact menu is TBD."
             />
-            <QA
-              question="Do I get a plus one?"
-              answer="Unfortunately, we do not have the space or resources to offer a plus one to everyone while still having room for all the friends and family
-              we want to see. If we have reserved an extra seat for you, it will show up when you enter your name
-              to RSVP. If you would like to bring someone with you for the vacation portion of your stay, that is entirely up to you."
-            />
+
             <QA
               question="Are my children invited?"
               answer="Your well-behaved, appropriately supervised children are welcome to attend. There should be RSVP space allotted for them if we are expecting you to bring them. If that

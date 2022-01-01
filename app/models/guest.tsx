@@ -1,13 +1,20 @@
-export const isValidFoodChoice = (
-  foodChoice: unknown,
-): foodChoice is 'chicken' | 'fish' | 'veg' => {
-  return foodChoice === 'chicken' || foodChoice === 'fish' || foodChoice === 'veg';
-};
-
 export type Guest = {
+  userID: string;
   firstName: string;
   lastName: string;
-  foodChoice?: 'chicken' | 'fish' | 'veg';
+  partyNum: number;
+  plusOne: boolean;
 };
 
-export type Guests = Map<string, Guest>; // use map because order is specific
+export type Confirmation = {
+  name: string;
+  attending: boolean;
+  plusOneName?: string;
+};
+
+export type GuestSubmission = {
+  confirmation: Confirmation[];
+  email: string;
+  facebook: boolean;
+  accom: string;
+};

@@ -38,7 +38,7 @@ export const Wedding = () => {
     <>
       <Banner
         offset={0}
-        style={isSmallScreen ? { height: '50vh' } : { minHeight: 650 }}
+        style={isSmallScreen ? { height: '50vh' } : { minHeight: 600 }}
         imageSource={KoolauVenue}
       />
       <Container maxWidth="md">
@@ -179,7 +179,7 @@ export const Wedding = () => {
           <ScriptTypography variant="h2" align="center">
             Flower Squad
           </ScriptTypography>
-          <Box display="flex">
+          <Box display="flex" justifyContent="space-around" flexWrap="wrap">
             <Box mx="auto" width="16.5rem">
               <PartyMember
                 name="Logan Wiley"

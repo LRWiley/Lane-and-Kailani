@@ -20,7 +20,7 @@ export const About = () => {
       <Banner
         imageSource={kailaniAndLane}
         offset={0.3}
-        style={isSmallScreen ? { height: '90vh' } : { minHeight: 650 }}
+        style={isSmallScreen ? { height: '90vh' } : { minHeight: 600 }}
       />
       <Container maxWidth="md">
         <Box display="flex">

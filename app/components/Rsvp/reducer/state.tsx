@@ -1,11 +1,10 @@
-import { Guests } from '../../../models/guest';
+import { Guest } from 'app/models/guest';
 
 export type State = {
-  isAttending: boolean;
-  guests: Guests;
-  showRsvpModal?: boolean;
+  isSearchOpen: boolean;
+  isRsvpOpen: boolean;
+  userSearchResult?: Guest[];
   showSuccessSnack?: boolean;
-  showDeclinedSnack?: boolean;
   loading?: boolean;
   error?: Error;
 };

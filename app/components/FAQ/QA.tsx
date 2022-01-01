@@ -32,7 +32,9 @@ export const QA = (p: QAProps) => {
       </ListItem>
       <Collapse in={open} timeout="auto" unmountOnExit>
         <Box py={4}>
-          <Typography gutterBottom>{p.answer}</Typography>
+          <Typography align={isSmallScreen ? 'center' : 'left'} gutterBottom>
+            {p.answer}
+          </Typography>
         </Box>
       </Collapse>
     </>

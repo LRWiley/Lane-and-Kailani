@@ -1,59 +1,43 @@
-import { Guest } from '../../../models/guest';
+import { GuestSubmission } from 'app/models/guest';
 
 export enum RsvpActionTypes {
-  AddGuest = 'add-new-guest',
-  RemoveGuest = 'remove-guest',
-  UpdateGuest = 'update-guest',
-  SubmitGuests = 'submit-guests',
-  ClearGuests = 'clear-guests',
-
-  ShowSubmitSuccessSnack = 'show-submit-success-snack',
-  ShowDeclinedSnack = 'show-declined-snack',
-  HideSnack = 'hide-snackbar',
-
-  ShowRsvpModal = 'show-rsvp-modal',
-  HideRsvpModal = 'hide-rsvp-modal',
-
-  SetYesNo = 'set-yes-no-response',
-
-  Error = 'guest-action-error',
-  Loading = 'guest-action-loading',
+  ShowSearchModal,
+  HideSearchModal,
+  ShowRsvpModal,
+  HideRsvpModal,
+  SearchGuest,
+  SubmitGuests,
+  ShowSubmitSuccessSnack,
+  HideSnack,
+  Error,
+  Loading,
+  ClearGuests,
 }
 
-type AddGuestAction = { type: RsvpActionTypes.AddGuest; payload: { guest: Guest; id: string } };
-type RemoveGuestAction = { type: RsvpActionTypes.RemoveGuest; payload: { id: string } };
-type UpdateGuest = {
-  type: RsvpActionTypes.UpdateGuest;
-  payload: { id: string; guest: Partial<Guest> };
-};
-type ClearGuestsAction = { type: RsvpActionTypes.ClearGuests };
-
-type SubmitGuests = { type: RsvpActionTypes.SubmitGuests };
-
-type ShowSubmitSuccessSnack = { type: RsvpActionTypes.ShowSubmitSuccessSnack };
-type ShowDeclinedSnack = { type: RsvpActionTypes.ShowDeclinedSnack };
-type HideSnack = { type: RsvpActionTypes.HideSnack };
-
+type ShowSearchModal = { type: RsvpActionTypes.ShowSearchModal };
+type HideSearchModal = { type: RsvpActionTypes.HideSearchModal };
 type ShowRsvpModal = { type: RsvpActionTypes.ShowRsvpModal };
 type HideRsvpModal = { type: RsvpActionTypes.HideRsvpModal };
-
-type SetYesNo = { type: RsvpActionTypes.SetYesNo; payload: boolean };
-
-// TODO: for now errors are swallowed
+type SearchGuest = {
+  type: RsvpActionTypes.SearchGuest;
+  payload: { firstName: string; lastName: string };
+};
+type SubmitGuests = { type: RsvpActionTypes.SubmitGuests; payload: GuestSubmission };
+type ShowSubmitSuccessSnack = { type: RsvpActionTypes.ShowSubmitSuccessSnack };
+type HideSnack = { type: RsvpActionTypes.HideSnack };
 type ActionError = { type: RsvpActionTypes.Error; payload?: Error };
 type ActionLoading = { type: RsvpActionTypes.Loading; payload?: boolean };
+type ClearGuests = { type: RsvpActionTypes.ClearGuests };
 
 export type RsvpActions =
-  | AddGuestAction
-  | RemoveGuestAction
-  | UpdateGuest
-  | ClearGuestsAction
-  | SetYesNo
-  | SubmitGuests
-  | ShowSubmitSuccessSnack
-  | ShowDeclinedSnack
-  | HideSnack
+  | ShowSearchModal
+  | HideSearchModal
   | ShowRsvpModal
   | HideRsvpModal
+  | SearchGuest
+  | SubmitGuests
+  | ShowSubmitSuccessSnack
+  | HideSnack
+  | ActionError
   | ActionLoading
-  | ActionError;
+  | ClearGuests;

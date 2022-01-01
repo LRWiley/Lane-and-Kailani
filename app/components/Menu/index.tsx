@@ -9,6 +9,7 @@ import ListItemIcon from '@material-ui/core/ListItemIcon';
 import ListItemText from '@material-ui/core/ListItemText';
 import Toolbar from '@material-ui/core/Toolbar';
 import CakeIcon from '@material-ui/icons/Cake';
+import EventIcon from '@material-ui/icons/Event';
 import HomeIcon from '@material-ui/icons/Home';
 import MenuIcon from '@material-ui/icons/Menu';
 import QuestionAnswer from '@material-ui/icons/QuestionAnswer';
@@ -16,6 +17,7 @@ import ShoppingCartIcon from '@material-ui/icons/ShoppingCart';
 import * as React from 'react';
 import { useState } from 'react';
 
+import { Rsvp } from '../Rsvp';
 import { ScriptTypography } from '../ScriptTypography';
 import { ActiveLink } from './ActiveLink';
 import { ListItemLink } from './ListItemLink';
@@ -40,6 +42,11 @@ export const Menu = () => {
                 </ActiveLink>
               </Box>
               <Box ml={6}>
+                <ActiveLink href="/events">
+                  <ScriptTypography>Events</ScriptTypography>
+                </ActiveLink>
+              </Box>
+              <Box ml={6}>
                 <ActiveLink href="/registry">
                   <ScriptTypography>Registry</ScriptTypography>
                 </ActiveLink>
@@ -48,6 +55,9 @@ export const Menu = () => {
                 <ActiveLink href="/faq">
                   <ScriptTypography>FAQ</ScriptTypography>
                 </ActiveLink>
+              </Box>
+              <Box ml="auto" my="auto" mr={4}>
+                <Rsvp />
               </Box>
             </Toolbar>
           </Container>
@@ -72,6 +82,12 @@ export const Menu = () => {
                 <CakeIcon />
               </ListItemIcon>
               <ListItemText primary="Wedding" />
+            </ListItemLink>
+            <ListItemLink href="/events" onClick={closeDrawer}>
+              <ListItemIcon>
+                <EventIcon />
+              </ListItemIcon>
+              <ListItemText primary="Events" />
             </ListItemLink>
             <ListItemLink href="/registry" onClick={closeDrawer}>
               <ListItemIcon>
