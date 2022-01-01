@@ -59,7 +59,7 @@ export const Events = () => {
             description="Come hang out with us on a hike. Meet in the parking lot at time TBD. Low impact trail."
           />
           <EventBlock
-            date="Saturday, July 9th, 8 A.M. - ?"
+            date="Saturday, July 9th, 8 A.M."
             location="47-115 Kaimalolo Place, Kaneohe"
             picture={Pancakes}
             activity="Post Wedding Brunch"
