@@ -23,7 +23,8 @@
     "build": "npx webpack -c webpack.config.ts",
     "dev": "npx webpack serve",
     "lint": "npx eslint webpack.config.ts app/**/*.tsx app/**/*.ts",
-    "test": "npx karma start --single-run"
+    "test": "npx karma start --single-run",
+    "clean": "rm -rf dist"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.35",
@@ -77,5 +78,6 @@
     "webpack-bundle-analyzer": "^4.4.2",
     "webpack-cli": "^4.7.2",
     "workbox-webpack-plugin": "^6.1.5"
-  }
+  },
+  "packageManager": "yarn@3.1.1"
 }
