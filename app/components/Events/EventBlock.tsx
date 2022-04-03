@@ -11,7 +11,7 @@ type EventBlockProps = {
   location: string;
   picture: string;
   activity: string;
-  description: string;
+  description: string | JSX.Element;
 };
 
 export const EventBlock = (eb: EventBlockProps) => {

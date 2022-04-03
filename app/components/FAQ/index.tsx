@@ -48,19 +48,17 @@ export const FAQ = () => {
               question="Do I need to be vaccinated?"
               answer={
                 <>
-                  The short answer is yes, please be vaccinated before traveling or gathering with
-                  us. Refer to Hawai&apos;i&apos;s DOH website (
+                  We highly encourage you to be vaccinated before traveling or gathering with us.
+                  Please refer to Hawai&apos;i&apos;s DOH website (
                   <Link href="https://hawaiicovid19.com/travel/travel-overview/" target="_blank">
                     link
                   </Link>
-                  ) for the latest travel guidelines regardless of vaccination status. Although we
-                  will not personally verify your status, Hawai&apos;i has had the strictest COVID
-                  policies in the country throughout the pandemic, and will likely require proof of
-                  vaccination to enter businesses, restaurants, and possibly the venue itself. The
-                  pandemic is ever evoloving but it now seems unlikely to be over by July. We want
-                  to move forward with our wedding plans as responsibly as possible and out of
-                  respect for locals and other wedding guests, we ask that you celebrate with us
-                  having been vaccinated.
+                  ) for the latest travel guidelines regardless of vaccination status. Currently,
+                  Hawai&apos;i&apos;s COVID restrictions have been greatly relaxed. However, in the
+                  event of another spike, be prepared to show proof of vaccination for most
+                  businesses. We want to move forward with our wedding plans as responsibly as
+                  possible and out of respect for locals and other wedding guests, we encourage you
+                  to celebrate with us having been vaccinated regardless of current pandemic levels.
                 </>
               }
               startOpen
@@ -157,6 +155,7 @@ export const FAQ = () => {
                 </>
               }
             />
+            <QA question="When are RSVPs due?" answer="May 1" />
             <QA
               question="What island is the wedding on?"
               answer="O'ahu. Please book your flights to HNL."
@@ -168,14 +167,14 @@ export const FAQ = () => {
             />
             <QA
               question="Should I rent a car?"
-              answer="Yes. There will not be direct transporation to our venue and your own car will be extremely useful for getting to hikes, beaches, and other locations away from where
+              answer="Yes, we highly recommend it. There will not be direct transporation to our venue and your own car will be extremely useful for getting to hikes, beaches, and other locations away from where
             you stay. It is well worth your while to get out of your hotel and explore other areas. Unless you are using the car for mulitple people, a smaller car will be easier to maneuver into Hawa'i's
-            tight parking spaces. Uber/Taxis are available but are much less cost efficient in most cases."
+            tight parking spaces. Uber/Taxis are available but are much less cost efficient in most cases. Book your rental car ASAP as there is a shortarge of inventory on island."
             />
             <QA
               question="When should I book everything?"
               answer="Lodging should be booked as soon as possible as hotels and rental homes tend to fill quickly. Flights should generally be booked at least 6 weeks in advance, but can be
-                      booked sooner. Keep in mind your RSVP is due about 9 weeks before the wedding day."
+                      booked sooner. Book your rental car ASAP as there is a shortarge of inventory on island. Keep in mind your RSVP is due about 9 weeks before the wedding day (May 1)."
             />
             <QA
               question="Should I bring my own beach towels, snorkel gear, etc?"
@@ -199,7 +198,7 @@ export const FAQ = () => {
             <QA
               question="How do I RSVP?"
               answer="Desktop: Find the RSVP button at the top right of this site. Mobile: Find the RSVP button at the bottom left of your screen. If you have any issues with your
-                      RSVP, please email us at KailaniandLane@gmail.com."
+                      RSVP, please email us at KailaniandLane@gmail.com. RSVPs are due May 1."
             />
             <QA
               question="Do I get a plus one?"
@@ -234,7 +233,7 @@ export const FAQ = () => {
             />
             <QA
               question="When should I arrive to the ceremony?"
-              answer="Guests may start arriving about 30 minutes before the ceremony."
+              answer="Guests may start arriving about 30 minutes before the ceremony (ceremony at 4:00pm)."
             />
             <QA
               question="Is the ceremony inside or outside?"

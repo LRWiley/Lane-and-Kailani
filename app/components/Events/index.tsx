@@ -1,11 +1,13 @@
 import Box from '@material-ui/core/Box';
 import Container from '@material-ui/core/Container';
+import Link from '@material-ui/core/Link';
 import { Theme } from '@material-ui/core/styles';
 import Typography from '@material-ui/core/Typography';
 import useMediaQuery from '@material-ui/core/useMediaQuery';
 import * as React from 'react';
 
 import * as Beach from '../../images/beach.jpg';
+import * as Boat from '../../images/boat.jpg';
 import * as EventBeach from '../../images/EventBannerBeach.jpg';
 import * as Lighthouse from '../../images/lighthouse.jpg';
 import * as Pancakes from '../../images/pancakes.jpg';
@@ -57,6 +59,24 @@ export const Events = () => {
             picture={Lighthouse}
             activity="Group Hike"
             description="Come hang out with us on a hike. Meet in the parking lot at time TBD. Low impact trail."
+          />
+          <EventBlock
+            date="Tuesday, July 5th, 1 P.M."
+            location="He'eia Pier, Kaneohe Bay"
+            picture={Boat}
+            activity="Sandbar Adventure"
+            description={
+              <>
+                Sign yourself up here for an afternoon in Kaneohe Bay with us
+                <Link href="https://book.kaneohebayoceansports.com/top/products/436f7166-c30e-548d-b63f-aa0aca4c1ee8?_gl=1*920y1v*_ga*ODAwMDIyMDQ0LjE2NDU5Mjc1MzE.*_ga_34MV9T5BFB*MTY0NTkyNzUzMC4xLjEuMTY0NTkyNzU0OS4w&_ga=2.246610884.1751392072.1645927531-800022044.1645927531">
+                  via KBOS Action Club
+                </Link>
+                . Snorkeling, standup paddle boarding, beach volleyball and more! Cost is
+                $110/person and lunch is included. This is a non-exclusive event, so first come
+                first serve. Kama&apos;aina with ID, enter code LOCAL22 at checkout. See KBOS
+                website for further details.
+              </>
+            }
           />
           <EventBlock
             date="Saturday, July 9th, 8 A.M."
