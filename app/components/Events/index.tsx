@@ -74,7 +74,7 @@ export const Events = () => {
                 . Snorkeling, standup paddle boarding, beach volleyball and more! Cost is
                 $110/person and lunch is included. This is a non-exclusive event, so first come
                 first serve. Kama&apos;aina with ID, enter code LOCAL22 at checkout. See KBOS
-                website for further details.
+                website for further details. BYOB, cans only.
               </>
             }
           />
