@@ -61,7 +61,7 @@ export const Events = () => {
             description="Come hang out with us on a hike. Meet in the parking lot at time TBD. Low impact trail."
           />
           <EventBlock
-            date="Tuesday, July 5th, 1 P.M."
+            date="Tuesday, July 5th, 12:30 P.M."
             location="He'eia Pier, Kaneohe Bay"
             picture={Boat}
             activity="Sandbar Adventure"
