@@ -183,6 +183,7 @@ export const guestList: Guest[] = [
   { userID: uuid(), firstName: 'Alex', lastName: 'Chin', partyNum: 139, plusOne: false },
   { userID: uuid(), firstName: 'Ryan', lastName: 'Chin', partyNum: 139, plusOne: false },
   { userID: uuid(), firstName: 'Sophia', lastName: 'Chin', partyNum: 139, plusOne: false },
+  { userID: uuid(), firstName: 'Don', lastName: 'Long', partyNum: 142, plusOne: false },
 
   //Extended Friends - Lane
   { userID: uuid(), firstName: 'Grant', lastName: 'Childs', partyNum: 65, plusOne: false },
