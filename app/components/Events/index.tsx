@@ -47,21 +47,21 @@ export const Events = () => {
         >
           <Typography align="center"></Typography>
           <EventBlock
-            date="Date: TBD"
-            location="Tentatively: Kailua Beach Park"
+            date="Tuesday, July 5th, 9:00 A.M."
+            location="Kailua Beach Park"
             picture={Beach}
             activity="Beach BBQ"
-            description="Join us for a beach day at one of our favorite spots. Food sitiuation TBA."
+            description="Join us for a beach day at one of our favorite spots (on the beach area behind the Kalapawai). Food sitiuation TBA."
           />
           <EventBlock
-            date="Date: TBD"
-            location="Tentatively: Makapu'u Lighthouse"
+            date="Thursday, July 7th, Step off at 9:30 A.M."
+            location="Makapu'u Lighthouse"
             picture={Lighthouse}
             activity="Group Hike"
-            description="Come hang out with us on a hike. Meet in the parking lot at time TBD. Low impact trail."
+            description="Come hang out with us on a hike. Meet in the parking lot around 9:15 A.M.; allow time for parking. Low impact trail."
           />
           <EventBlock
-            date="Tuesday, July 6th, 12:30 P.M."
+            date="Wednesday, July 6th, 12:30 P.M."
             location="He'eia Pier, Kaneohe Bay"
             picture={Boat}
             activity="Sandbar Adventure"

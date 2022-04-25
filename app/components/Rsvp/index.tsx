@@ -60,9 +60,7 @@ export const Rsvp = () => {
                 <ThumbUpIcon />
               </Box>
               <Box my="auto">
-                <Typography>
-                  RSVP submitted successfully! Thank you for you&apos;re response.
-                </Typography>
+                <Typography>RSVP submitted successfully! Thank you for your response.</Typography>
               </Box>
             </Box>
           }

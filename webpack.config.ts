@@ -29,7 +29,7 @@ const factory = (mode = 'development'): Configuration => ({
         },
         description: {
           name: 'description',
-          content: 'Celebrate the wedding of Elliott and Mycah on June 12, 2021.',
+          content: 'Celebrate the wedding of Kailani and Lane on July 8, 2022.',
         },
       },
       scriptLoading: 'defer',
