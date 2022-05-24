@@ -1,6 +1,4 @@
-import Box from '@material-ui/core/Box';
 import Container from '@material-ui/core/Container';
-import Hidden from '@material-ui/core/Hidden';
 import Paper from '@material-ui/core/Paper';
 import { makeStyles } from '@material-ui/core/styles';
 import { ThemeProvider } from '@material-ui/core/styles';
@@ -17,7 +15,6 @@ import { Events } from './Events';
 import { FAQ } from './FAQ';
 import { Menu } from './Menu';
 import { Registry } from './Registry';
-import { Rsvp } from './Rsvp';
 import { ServiceWorkerRegistration } from './ServiceWorkerRegistration';
 import { Wedding } from './Wedding';
 
@@ -64,11 +61,6 @@ export const App = () => (
             </Switch>
           </Router>
           <GithubCorner target="_blank" href="https://github.com/LRWiley/Lane-and-Kailani" />
-          <Hidden mdUp>
-            <Box position="fixed" bottom="0" left="0" m={4} zIndex={1000}>
-              <Rsvp />
-            </Box>
-          </Hidden>
           <ServiceWorkerRegistration src="/service-worker.js" hideSnackbar />
         </Paper>
       </LoadScript>
