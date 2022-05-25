@@ -17,7 +17,6 @@ import ShoppingCartIcon from '@material-ui/icons/ShoppingCart';
 import * as React from 'react';
 import { useState } from 'react';
 
-import { Rsvp } from '../Rsvp';
 import { ScriptTypography } from '../ScriptTypography';
 import { ActiveLink } from './ActiveLink';
 import { ListItemLink } from './ListItemLink';
