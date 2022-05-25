@@ -56,9 +56,6 @@ export const Menu = () => {
                   <ScriptTypography>FAQ</ScriptTypography>
                 </ActiveLink>
               </Box>
-              <Box ml="auto" my="auto" mr={4}>
-                <Rsvp />
-              </Box>
             </Toolbar>
           </Container>
         </AppBar>
