@@ -51,14 +51,7 @@ export const Events = () => {
             location="Kailua Beach Park"
             picture={Beach}
             activity="Beach BBQ"
-            description="Join us for a beach day at one of our favorite spots (on the beach area behind the Kalapawai). Food sitiuation TBA."
-          />
-          <EventBlock
-            date="Thursday, July 7th, Step off at 9:30 A.M."
-            location="Makapu'u Lighthouse"
-            picture={Lighthouse}
-            activity="Group Hike"
-            description="Come hang out with us on a hike. Meet in the parking lot around 9:15 A.M.; allow time for parking. Low impact trail."
+            description="Join us for a beach day at one of our favorite spots (on the beach area behind the Kalapawai). Please bring a side dish to share. Burgers will be provided while supplies last. BYOB."
           />
           <EventBlock
             date="Wednesday, July 6th, 12:30 P.M."
@@ -78,6 +71,13 @@ export const Events = () => {
                 details. BYOB, cans only.
               </>
             }
+          />
+          <EventBlock
+            date="Thursday, July 7th, Step off at 9:30 A.M."
+            location="Makapu'u Lighthouse"
+            picture={Lighthouse}
+            activity="Group Hike"
+            description="Come hang out with us on a hike. Meet in the parking lot around 9:15 A.M.; allow time for parking. Low impact trail."
           />
           <EventBlock
             date="Saturday, July 9th, 8 A.M."
